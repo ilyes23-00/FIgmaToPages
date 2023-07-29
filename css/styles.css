@@ -1,0 +1,819 @@
+:root{
+  --background-color : #E5E5E5;
+  --main-color: #847EF0;
+  --text-color : #333942;
+  --gradient-color : linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+  --font-family : 'Poppins', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+/* header costum  */
+.container{
+  max-width:  calc(100% - 120px) !important;
+  overflow: hidden;
+  
+}
+.header-section .nav-costum{
+  font-family: var(--font-family);
+  margin: auto !important;
+  padding-top: 10px;
+}
+.header-section .nav-costum li{
+  line-height: 24px;
+  font-size: 16px;
+  margin-right: 32px;
+ font-weight: 500px;
+ 
+}
+.header-section .nav-costum  .play-button{
+  background: var(--gradient-color);
+  Padding:  12px, 40px, 12px, 40px;
+  height: 44px;
+  width: 149px;
+  border-radius: 100px;
+  text-align: center;
+}
+.header-section .nav-costum  .play-button a{
+  color: #fff;
+}
+
+/* header costum  */
+
+/* subcribe-section */
+.subcribe-section svg{
+  position: absolute;
+  top: 10px;
+  right: 142px;
+  cursor: pointer;
+}
+.subcribe-section{
+  width: 100%;
+  min-height: 131px;
+  margin-top: 42px;
+  position: relative;
+}
+.subcribe-section .subcribe{
+  background-color:#fff ;
+  min-height: 131px;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 55px !important;
+  
+}
+.subcribe-section  .access-contetnt  {
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin: 0;
+  margin-left: 102px;
+  
+}
+.subcribe-section  .access-contetnt  p:first-child{
+  margin-top: 25px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  Width:350px;
+}
+.subcribe-section  .access-contetnt  p:nth-last-child(1){
+  font-size: 12px;
+  line-height: 18px;
+  Width:350px;
+  Height :54px;
+  color:#70757C;
+
+}
+.subcribe-section .access-fields input{
+ width: 389px;
+ height: 48px;
+ margin-top: 41px ;
+ margin-left: -56px;
+ border:  1px solid #EBECFF ;
+ border-radius: 8px; 
+ box-shadow: 5px 8px 5px 0px rgba(23, 40, 36, 0.1));
+ -webkit-box-shadow : 5px 8px 5px 0px rgba(23, 40, 36, 0.1);
+ -moz-box-shadow : 5px 8px 5px 0px rgba(23, 40, 36, 0.1);
+}
+
+.subcribe-section .access-fields input::placeholder{
+  font-weight: 400;
+  color: #999DA1;
+  font-size: 12px;
+}
+.subcribe-section .access-fields  button{
+  width: 187px;
+  height: 48px;
+  background:  var(--gradient-color); 
+  color: #fff;
+  border-radius: 100px;
+  border: none; 
+  margin-left: 16px;
+}
+/* subcribe-section */
+
+/* intro section  */
+
+.intro-section {
+  background-image: url(../images/first.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  height: 587px;
+}
+
+.intro-section .intro-text {
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 195px;
+}
+.intro-section .intro-text  h1,
+.footer-section h1{
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+}
+.intro-section .intro-text  span,
+.footer-section span{
+  color:var(--main-color) ;
+
+}
+.intro-section .intro-text  p{
+  width: 340px;
+  height: 72px;
+  color: #70757C;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.intro-section .img-holder{
+  margin: auto;
+ margin-top:80px ;
+ margin-right:  -120px;
+}
+.intro-section  .image-box{
+ width: 100%;
+ height: 465px;
+ background-image: url(../images/safaribrowser\ 1.png);
+ background-size: cover;
+}
+.intro-section  .image-box img{
+  position: absolute;
+  top: 131px;
+}
+/* intro section  */
+
+/* options section */
+.options-section{
+  width: 100%;
+  margin-top: 105px;
+  position: relative;
+}
+.options-section .option-title {
+ display: flex;
+ width: 100%;
+}
+
+.options-section .option-title  p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-left: 535px;
+}
+.options-section .option-title  i {
+  padding-left: 211px;
+  color: var(--main-color);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 536px;
+  } 
+
+/* options section */
+
+
+/* Features section */
+.features-section{
+  background-image: url(../images/second.png);
+  background-repeat: no-repeat;
+ 
+  background-position:initial;
+  position: relative;
+  width: 100%;
+  background-color: var(--main-color);
+  margin-top: 105px;
+  padding-top: 74px;
+}
+.features-section .feature{
+  margin-left: 100px;
+margin-bottom: 94px;
+}
+.features-section .feature span{
+  color :#ffffff;
+  display: block;
+  font-family: 'Explora', cursive;
+  font-size: 18px;
+  line-height: 22.4px;
+  letter-spacing: 3px;
+}
+.features-section .feature span:first-child{
+  margin-left: -15px;
+  margin-top: 74px;
+  margin-bottom: 13px;
+  color: #F0F1F1;
+}
+.features-section .feature  .feature-num{
+  font-weight: 600;
+  margin-left: 20px;
+margin-bottom: 39px;
+}
+/* Features section */
+
+/* key section */
+.row{
+  padding: 0;
+}
+.key-section{
+  margin-top: 150px;
+  
+}
+.key-section h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--text-color);
+  margin-bottom: 56px;
+}
+.key-section .keys{
+  background-color: #fff;
+  border-radius: 16px;
+ min-width: 389px;
+  height: 200px;
+  margin-left: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0px 4px 10px rgba(23, 40, 36, 0.1);
+}
+.key-section .keys:first-child,
+.key-section .keys:nth-child(4){
+  margin-left:120px ;
+}
+
+.key-row{
+  justify-content: center;
+}
+.key-section .keys span{
+  width: 100%;
+ margin-left: 20px;
+}
+.key-section .keys span p{
+  margin-top: -32px;
+  color: var(--text-color);
+}
+.key-section .keys span img{
+  width: 28.23px;
+  height: 28.22px;
+  margin-top: 46.07px;
+  border: none;
+  margin-right: 29px;
+}
+.key-section .keys  p{
+margin-left: 117px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color:#70757C; 
+margin-right: 32px;
+}
+/* key section */
+
+/* web section */
+.web-section{
+  width: 100%;
+  margin-top: 150px;
+  display: inline-block;
+}
+.web-section .box-img{
+  width: 493px;
+  height: 412px;
+  background-color: #D3D1F1;
+  float: left;
+border-radius: 16px;
+}
+.web-section .box-img img{
+  width: 446px;
+  height: 299px;
+  margin-top: 40px;
+  margin-bottom: 73px;
+  margin-left: 101px;
+}
+.web-app {
+width: 50%;
+float: right;
+margin-top: 61px;
+margin-left: 61px 
+}
+.web-app h3{
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.web-app p{
+  color: #70757C;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+/* web section */
+
+/* Frequently Asked Questions */
+.Frequently-section{
+  width: 100%;
+  margin-top: 150px;
+ overflow-x: hidden;
+}
+.Frequently-section h3{
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+}
+.Frequently-section  p{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+}
+.Frequently-section .FQA {
+  margin-top: 101px;
+  margin-left: 324px;
+}
+.Frequently-section .FQA .card,
+.Frequently-section .FQA .card-header{
+  background-color:  transparent;
+  border: none;
+  display: flex;
+}
+
+.Frequently-section .FQA .card svg{
+  position: absolute;
+margin-top: 9px;
+margin-left: 649px;
+}
+.Frequently-section .FQA  button{
+  color: var(--text-color);
+  text-decoration: none;
+}
+.Frequently-section .FQA .card-body{
+  font-size: 12px;
+  line-height: 24px;
+  width: 50%;
+}
+/* Frequently Asked Questions */
+
+/* footer section */
+.footer-section{
+  background-image: url(../images/third.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  width: 100%;
+  height: 211px;
+  background-color : #ffff;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position: absolute;
+  
+}
+.footer-section h1{
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 84px;
+letter-spacing: 0em;
+ z-index: 2;
+}
+.footer-section h1 span{
+  background: -webkit-linear-gradient(to right, #6D84FA 0%, #F95AB9 100%);
+}
+
+/* footer section */
+
+
+/* responsive sections  */
+/* Extra large devices */
+@media only screen and (min-width: 1414px) {
+  .subcribe-section .access-fields{
+  text-align: center;
+}
+.intro-section .img-holder {
+  position: absolute;
+  margin-top: 80px;
+  margin-right: -9%;
+  right: 15%;
+  width: 50%;
+  padding:0 ;
+}
+
+.key-section .keys:first-child, 
+.key-section .keys:nth-child(4) {
+  margin-left: 0px;
+}
+  .Frequently-section .FQA {
+    margin-left: 30%;
+  }
+}
+/* Extra large devices */
+
+/* Large devices screen  */
+ @media (min-width: 1150px) and (max-width:1413px) {  
+    .header-section .nav-costum li {
+      margin-right: 0px;
+  }
+  .subcribe-section .access-contetnt {
+    margin-left: 80px !important;
+  }
+  .subcribe-section .access-contetnt p:nth-last-child(1) {
+    Width: 320px;
+}
+  .subcribe-section .access-fields input {
+    width:55%;
+    height: 48px;
+    margin-left: 6px;
+  }
+    .subcribe-section .access-fields button {
+      width: 120px;
+      margin-left: 0px;
+  }
+    .intro-section .img-holder {
+      position: absolute;
+      margin-top: 80px;
+      right: 20%;
+      width: 50%;
+      padding:0 ;
+    }
+    .options-section .option-title p {
+      margin-left: 350px;
+  }
+
+  .options-section .option-title i {
+    right: 361px;
+  }
+  .features-section .feature {
+    margin-left: 6%;
+}
+  .key-section .keys:first-child, 
+  .key-section .keys:nth-child(4) {
+    margin-left: 20px;
+  }
+  .web-section .box-img img {
+    width: 400px;
+    margin-left: 73px;
+  }
+  .web-section .box-img {
+    width: 426px;
+    height: 382px;
+  }
+  .web-app {
+    width: 40%;
+  }
+  
+}   
+/* Large devices screen  */
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1149px){
+  .header-section .nav-costum li {
+    line-height: 24px;
+    font-size: 16px;
+    margin-right: 0px;
+    font-weight: 500px;
+}
+  .subcribe-section .access-contetnt {
+    margin-left: 60px !important;
+  }
+  .subcribe-section .access-fields input {
+    width:55%;
+    height: 48px;
+    margin-left: 6px;
+  }
+    .subcribe-section .access-fields button {
+      width: 120px;
+      margin-left: 0px;
+  }
+  .subcribe-section .access-contetnt p:nth-last-child(1) {
+    Width: 320px;
+}
+.intro-section .img-holder {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 20px !important;
+  right: 25%;
+  width: 50%;
+  padding:0 ;
+}
+.intro-section .intro-text p {
+  width: 299px;
+}
+.options-section .option-title i {
+  position: absolute;
+  right: 40%;
+}
+.options-section .option-title p {
+  margin-left: 30%;
+}
+.features-section .feature {
+  margin-left: 162px;
+  margin-bottom: 94px;
+}
+.key-section .keys:first-child, 
+.key-section .keys:nth-child(4) {
+  margin-left: 16px;
+}
+.web-section .box-img img {
+  width: 400px;
+  margin-left: 73px;
+}
+.web-section .box-img {
+  width: 426px;
+  height: 382px;
+}
+.web-app {
+  width: 40%;
+}
+.Frequently-section .FQA {
+  margin-left: 15%;
+}
+}
+
+/* Medium devices */
+/* small screen  */
+
+@media (max-width: 991px){
+  .subcribe-section .subcribe {
+      margin-right: 0px !important;
+      padding-bottom: 20px;
+}
+.subcribe-section .access-fields{
+  text-align: center;
+  width: 100%;
+}
+.subcribe-section .access-fields input{
+  width: 50%;
+  align-items: center;
+  margin-left: 10px;
+}
+.intro-section .img-holder {
+  height: 100%;
+  margin: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.intro-section .intro-text {
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.intro-section .image-box {
+  width: 100%;
+  height: 465px;
+  background-image: url(../images/safaribrowser\ 1.png);
+  background-size: cover;
+}
+.options-section .option-title i {
+  right: 250px;
+}
+.options-section .option-title p {
+  margin-left: 229px;
+}
+.features-section .feature {
+  text-align: center;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.box-linaire-features {
+  top: 300px;
+}
+.key-section .keys:first-child, .key-section .keys:nth-child(4) {
+  margin-left: 0px;
+}
+.key-section .keys {
+  margin-left: 0px;
+}
+.web-app {
+  width: 100%;
+  float: right;
+}
+
+.Frequently-section .FQA {
+    margin-left: 4%;
+}
+.Frequently-section .FQA .card svg {
+  margin-left: 500px;
+}
+}
+/* small screen  */
+
+/* mobile screen screen  */
+
+
+@media  (min-width : 360px) and (max-width : 990px){
+    .subcribe-section {
+      background-color: #fff;
+    }
+    .subcribe-section .subcribe{
+      background-color: transparent;
+    }
+    .subcribe-section .access-contetnt {
+      margin-left: 0px;
+      margin-top: 5px;
+  }
+  .subcribe-section .access-contetnt p:first-child{
+    width: 100%;
+  }
+  .subcribe-section .access-contetnt p:nth-last-child(1) {
+    font-size: 10px;
+    line-height: 17px;
+    Width: 100%;
+    color: #70757C;
+  }
+  .subcribe-section svg {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+  }
+  .subcribe-section .access-fields input{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .subcribe-section .access-fields button {
+    width: 100%;
+    height: 35px;
+      margin-left: 0px;
+  }
+  /* section intro  */
+  .intro-section .intro-text h1, .footer-section h1 {
+    font-size: 43px;
+    line-height: 63px;
+  }
+    .intro-section .intro-text p {
+      width: 100%;
+      font-size: 15px;
+      line-height: 21px;
+  }
+  .intro-section .image-holder{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .intro-section .image-box {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/safaribrowser\ 1.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.intro-section .image-box img {
+  position: absolute;
+  top:150px;
+  left: 0;
+}
+/*intro section*/
+
+/*options*/
+.options-section .option-title p {
+  margin-left: 35px;
+}
+.options-section .option-title i {
+  right: 112px;
+}
+/*options*/
+/*feature*/
+.features-section{
+  padding-top: 0;
+}
+/*feature*/
+.key-section .keys:first-child,
+ .key-section .keys:nth-child(4) {
+    margin-left: 0px;
+}
+.key-section .keys:first-child, 
+.key-section .keys:nth-child(4) {
+    margin-left: 0px;
+}
+.key-section .keys:first-child, 
+.key-section .keys:nth-child(4) {
+    margin-left: 120px;
+}
+
+.key-section .keys {
+    margin-left: 0px;
+}
+.key-section .keys {
+    background-color: #fff;
+    border-radius: 16px;
+    min-width: 100%;
+    height: 200px;
+    
+}
+.key-section .keys p {
+  margin-left: 0px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #70757C;
+  margin-right: 0px;
+  font-size: 14px;
+}
+.key-section .keys span p {
+  margin-top: 0px;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.key-section .keys span img {
+  width: 28.23px;
+  height: 28.22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  /* margin-right: 29px; */
+}
+.key-section .keys:first-child,
+ .key-section .keys:nth-child(4) {
+  margin-left: 0px;
+}
+/*options*/
+
+/* web app  */
+.web-section{
+  margin-top: 60px;
+}
+.web-section .box-img  {
+  width: 100%;
+  height: 100%;
+}
+.web-section .box-img img {
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 73px;
+  margin-left: 0px;
+}
+.web-app h3{
+  font-size: 30px;
+}
+.web-app p {
+  color: #70757C;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  width: 100%;
+}
+/* web app  */
+
+/* FQA  */
+  .Frequently-section .FQA {
+    margin-left: 0px;
+  }
+  .Frequently-section .FQA .card-body {
+    font-size: 12px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .Frequently-section .FQA .card svg {
+    margin-left: 264px;
+  }
+  .Frequently-section .FQA button {
+  font-size: 13px;
+  font-weight: 500;
+  }
+  /* FQA  */
+
+ }
+
+/* mobile screen screen  */
+
+/* responsive sections  */

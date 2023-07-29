@@ -1,0 +1,203 @@
+/* background path  */
+.background-icon
+{
+    width: 100%;
+}
+.back1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.back2
+{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.back3
+{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+.back4
+{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+.back5
+{
+    position: absolute;
+    top: 2000px;
+    right: 260px;
+}
+.back6
+{
+    position: absolute;
+    top: 2000px;
+    left: 50%;
+}
+.back7
+{
+    position: absolute;
+    top: 2000px;
+    left: 80px;
+}
+.back8{
+    position: absolute;
+    top: 2100px;
+    left: 60px;
+}
+.back9{
+    position: absolute;
+    top: 2800px;
+    right: 80px;
+}
+/* background path  */
+/* welcome section  */
+.welcome-section,
+.buy-section
+{
+    width: 100%;
+    height: 600px;
+    margin-top: 120px;
+    margin-bottom:80px;
+    overflow-x: hidden;
+}
+.welcome-section .content-box,
+.buy-section .content-box
+{
+width: 374px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 104px;
+padding-top: 40px;
+
+}
+.welcome-section .content-box h3,
+.buy-section .content-box h3{
+    font-size: 32px; 
+    line-height: 48px;
+    font-weight: 600;
+}
+.welcome-section .content-box p,
+.buy-section .content-box p{
+    color: #70757C;
+    margin-top: 24px;
+    
+}
+.welcome-section img,
+.buy-section img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* welcome section  */
+
+/* buy section  */
+.buy-section .content-box{
+    margin-left: auto;
+}
+/* buy section  */
+
+/* //responsive section // */
+/* tablte screen  */
+@media (max-width: 768px){
+    .welcome-section,
+    .buy-section
+    {
+    height: 700px;
+    margin-top: 40px;
+    margin-bottom:70px;
+    }
+   
+    .welcome-section .content-box,
+    .buy-section .content-box
+    {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 40px;
+    
+    }
+
+
+}
+/* tablte screen  */
+
+/* phone screnn  */
+
+@media (max-width: 576px)
+{
+    .back2
+    {
+        left: 40%;
+    }
+    .back3
+    {
+        left: 12%;
+    }
+
+.welcome-section,
+.buy-section
+{
+ height: 755px;
+ margin-top: 40px;
+ margin-bottom:70px;
+}
+ .img-phone
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.welcome-section .content-box,
+.buy-section .content-box
+{
+width: 100%;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 0px;
+padding-top: 0px;
+margin-left: 0px;
+
+}
+.welcome-section .content-box h3,
+.buy-section .content-box h3{
+    font-size: 32px; 
+    line-height: 48px;
+    font-weight: 600;
+    
+}
+.welcome-section .content-box p,
+.buy-section .content-box p{
+    color: #70757C;
+    margin-top: 24px;
+    text-align: center;
+    
+}
+
+}
+
+/* phone screnn  */
+
+/* //responsive section // */

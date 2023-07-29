@@ -1,0 +1,138 @@
+:root{
+    --background-color : #E5E5E5;
+    --main-color: #847EF0;
+    --text-color : #333942;
+    --gradient-color : linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+    --font-family : 'Poppins', sans-serif;
+    --paragr-color: #70757C;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  /* FQA intro  */
+  .FQA-intro
+  {
+      width: 100%;
+      margin-top: 110px;
+      text-align: center;
+    }
+    .FQA-intro h2
+    {
+        width: 120px;
+        margin:  auto;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 78px;
+        letter-spacing: 0em;
+        border-bottom: 3px solid var(--main-color) ;
+        margin-bottom: 20px;
+    }
+    .FQA-intro p
+    {
+        margin: auto;
+        width: 337px;
+        color: var(--paragr-color);
+        
+    }
+    /* FQA intro  */
+
+/* platform section  */
+.platform{
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+.platform .card{
+    border: none;
+}
+.platform h2
+{
+font-family: var(--font-family);
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.platform .FQA .card h2
+{
+font-family: var(--font-family);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.platform .FQA button{
+    text-decoration: none;
+    color:#000 !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.platform .FQA i{
+    position: absolute;
+    top: 25px;
+    right: 51px;
+    float: right;
+    color: var(--main-color);
+
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+}
+.platform .accordion{
+    border: 3px solid var(--main-color) !important;
+    border-radius: 16px;
+}
+.platform .card-body
+{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#70757C ;
+}
+/* platform section  */
+.signup-section,
+.events-section,
+.bets-section,
+.token-section{
+    margin-top: 100px;
+}
+
+@media (max-width: 1076px) { 
+    .platform .FQA button {
+        text-decoration: none;
+        color: #000 !important;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px
+    }
+ }
+ 
+@media (max-width: 782px) 
+{ 
+     .platform .FQA .button{
+         font-size:14px;
+     }
+     .platform .FQA i{
+         right: 8px;
+     }
+}

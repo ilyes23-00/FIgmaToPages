@@ -1,0 +1,240 @@
+:root{
+    --background-color : #E5E5E5;
+    --main-color: #847EF0;
+    --text-color : #333942;
+    --gradient-color : linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+    --font-family : 'Poppins', sans-serif;
+  }
+
+/* aboutus-section */
+.aboutus-section
+{
+    width: 100%;
+    margin-top: 100px;
+}
+.aboutus-section h2
+{
+    margin-left: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+.aboutus-section p
+{
+    width: 50%;
+    margin-left: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;    
+    color: #70757C;
+}
+.aboutus-section .download-section
+{
+margin-top: 80px;
+}
+.aboutus-section .download-section span
+{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    display: inline-block;
+    margin: 0 24px;
+    border: 3px solid var(--main-color);
+    padding: 11px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.aboutus-section .download-section span i
+{
+    color: var(--main-color);
+}
+
+/* aboutus-section */
+
+/* Roadmaps section  */
+
+/* Roadmaps section  */
+
+
+
+
+
+/* our team section */
+.our-team
+{
+    margin-top: 100px;
+}
+.our-team .our-team-title
+{
+    width: 100px;
+    height: 40px;
+    background-image: url(../images/career-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #fff !important;
+    margin-top: 100px; 
+    display: block;
+    text-align: center;
+    
+}
+.our-team h3
+{
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+}
+.swiper{
+  margin-left: -400px !important;
+}
+.swipe-section
+{
+  width: 100%;
+  margin: 100px 0;
+}
+.swiper-slide {
+    width: 330px;
+  position: relative;
+    height: 465px;
+  }
+
+/* swiper carousel  */
+/* .swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: -200px;
+    padding-bottom: 200px;
+  } */
+  .swiper-button-prev{
+    left: 25%;
+    top:95%;
+  }
+  
+  .swiper-button-next{
+    right: 10px;
+    top:95%;
+  }
+
+.our-team .teammate-info
+{
+  color: white;
+  background: rgba(255, 255, 255, 0.164);
+  /* opacity: 0.2; */
+
+  position: absolute;
+  bottom: 113px;
+  width: 300px;
+
+}
+.our-team .teammate-info::before
+{
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(45px);
+}
+.our-team .teammate-info h5
+{
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;  
+  color: #fff;
+  padding-bottom: 0px;
+  margin-left: 25px;
+  margin-bottom: -10px;
+ 
+}
+.our-team .teammate-info span
+{
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+color: #fff;
+opacity: .7;
+margin-left: 25px;
+padding-bottom: 5px;
+}
+/* our team section */
+
+
+/* media responsive  */
+@media (min-width: 768px) and (max-width : 991px)
+{
+  .aboutus-section p 
+  {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .swiper-button-prev
+  {
+    left: 35%;
+  }
+}
+
+@media (min-width: 576px) and (max-width : 767px)
+{
+  .aboutus-section p 
+  {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .aboutus-section .download-section span {
+    margin: 0 24px;
+    margin-bottom: 10px;
+}
+  .swiper{
+    margin-left: -100px !important;
+  }
+  .swiper-button-prev
+  {
+    left: 22%;
+  }
+}
+
+@media (max-width : 575px)
+{
+  .our-team .container
+  {
+    max-width: 100% !important;
+  }
+  .aboutus-section p 
+  {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .aboutus-section .download-section span {
+    margin: 0 24px;
+    margin-bottom: 10px;
+}
+.swiper{
+  margin-top: 10px;
+  margin-left: 0px !important;
+}
+.swiper-button-prev
+  {
+    left: 4%;
+  }
+}
+/* media responsive  */

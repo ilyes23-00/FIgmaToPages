@@ -1,0 +1,132 @@
+.all-road{
+  /* margin-left: 300px; */
+ width: 100%;
+ display: block;
+ margin: 0 auto;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.token-section .token-title
+{
+
+    width: 100px;
+    height: 40px;
+    background-image: url(../images/career-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #fff !important;
+    margin-top: 100px; 
+    display: block;
+    margin: auto;
+}
+.token-section h2
+{
+margin-top: 24px;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.roadmap-token
+{
+  display: inline-block;
+  margin-top:100px ;
+  margin-left: 0px;
+}
+.roadmap-token .step
+{
+  margin-left: 25px;
+  width: 150px;
+  
+  padding-left: 4px;
+}
+.roadmap-token .step span
+{ 
+display: block;
+width: 150px;
+font-size: 11px;
+padding-bottom: 6px;
+border-left: 1px solid var(--main-color);
+padding-left: 5px;
+
+}
+.roadmap-token .step span:nth-child(2n)
+{
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0em;
+padding-bottom: 60px;
+}
+.roadmap-token .step span:nth-child(2n+1)
+{
+  background:linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%) !important ;
+  clip-path: polygon(0 0, 83% 0, 100% 50%, 83% 100%, 0 100%, 0% 50%);
+  margin-bottom: 4px;
+  border-left: none;
+  margin-left: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+
+
+}
+.roadmap-token .hide{
+  visibility: hidden !important;
+}
+
+.token-section .img-size{
+  width: 50px;
+  height: 50px;
+  border:3px solid var(--main-color);
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.token-section .img-size img,
+.token-section .last-img img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 5px;
+
+}
+.img-size::before, .img-size::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #847EF0;
+  width: 100vw;
+  height: 2px;
+  max-width: 200px;
+}
+.token-section .last-img
+{
+  width: 50px;
+  height: 50px;
+  border:3px solid var(--main-color);
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  top:114px;
+}
+.token-section .last-img img
+{
+  padding-top: 0px;
+  width: 30px;
+  
+}

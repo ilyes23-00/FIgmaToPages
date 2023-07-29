@@ -1,0 +1,813 @@
+:root{
+    --background-color : #E5E5E5;
+    --main-color: #847EF0;
+    --text-color : #333942;
+    --gradient-color : linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+    --font-family : 'Poppins', sans-serif;
+}
+
+/* background animation style  */
+.circle-shape
+{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}
+.circle-shape2
+{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+}
+.tri-shape1
+{
+    position: absolute;
+    top: 54%;
+    left: 100px;
+}
+.tri-shape2
+{
+    position: absolute;
+    top: 54%;
+    right: 100px;
+}
+.tri-shape3
+{
+    position: absolute;
+    top: 60%;
+    left: 200px;
+}
+.tri-shape4
+{
+    position: absolute;
+    top: 60%;
+    right: 200px;
+}
+.tri-shape5
+{
+    position: absolute;
+    top: 60%;
+    right: 500px;
+    transform: rotate(-90deg);
+}
+.tri-shape6
+{
+    position: absolute;
+    top: 20%;
+    right: 500px;
+    transform: rotate(180deg);
+}
+.tri-shape7
+{
+    position: absolute;
+    top: 60%;
+    left: 500px;
+
+}
+.tri-shape8
+{
+    position: absolute;
+    top: 20%;
+    left: 500px;
+    transform: rotate(90deg);
+}
+.tri-shape9
+{
+    position: absolute;
+    top: 30%;
+    left: 150px;
+}
+.tri-shape10
+{
+    position: absolute;
+    top: 30%;
+    right: 150px;
+}
+/* background animation style  */
+
+/* play-intro section */
+.play-intro
+{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.play-intro .wallfair h3
+{
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+    text-decoration-color:var(--main-color) ;
+    text-underline-offset: 15px;
+    
+}
+.play-intro .wallfair span
+{
+
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+color: #70757c;
+margin-top: 15px;
+}
+/* play-intro section */
+
+/* numbre-token */
+.play-intro .numbre-token
+{
+    margin-top: 20px;
+}
+
+.play-intro .numbre-token span
+{
+display: block;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 63px;
+letter-spacing: 0em;
+
+}
+.play-intro .numbre-token span:first-child
+{
+font-size: 152px;
+font-style: normal;
+font-weight: 600;
+line-height: 228px;
+letter-spacing: 0em;
+background: linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-intro .numbre-token p
+{
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+color: #70757c;
+}
+.play-intro .numbre-token form
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.play-intro .numbre-token form input
+{
+    margin-top: 36px;
+    margin-bottom:24px ;
+    height: 66px;
+    border-radius: 58px;
+    border: 3px solid;
+    border-color:  var(--main-color);
+
+}
+.play-intro .numbre-token form input::placeholder
+{
+    padding-left: 40px;
+    color: #70757c;
+}
+.play-intro .numbre-token form button
+{
+    color: #fff;
+    background:linear-gradient(90deg, #6D84FA 0%, #F95AB9 100%);
+    border-radius: 8px;
+    border: 3px solid;
+    height: 66px;
+}
+.play-intro .numbre-token form span
+{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+color: #70757c;
+opacity: 0.7;
+margin-top: 8px;
+}
+
+/* numbre-token */
+
+/* box-offer */
+.box-offer 
+{
+    width: 100%;
+    margin-top:100px;
+
+}
+.box-offer .container-box 
+{
+    border: 3px solid var(--main-color);
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.box-offer .container-box .offer 
+{
+display: flex;
+
+  
+}
+.offer .num
+{
+    border: 1px solid var(--main-color);
+    border-radius:50% ;
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    margin-top: 10px;
+    padding: 13px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background: var(--main-color);
+}
+.offer .box-info
+{
+    padding-top: 10px;
+    margin-left: 18px;
+}
+.offer .box-info
+{
+color: var(--text-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.offer .box-info span:first-child
+{
+color: var(--main-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+
+
+}
+/* box-offer */
+
+/* question-slide */
+.question-slide
+{
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.info-block section {
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid var(--main-color);
+    margin-top: 20px;
+    border-radius: 18px;
+    width: 50%;
+    height: 330px;
+
+}
+
+.file-marker
+{
+    position: relative;
+}
+ .file-marker span
+{
+    position: absolute;
+    right: -174px;
+    top: 45%;
+    transform: translate(-50%);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: 0em;
+    color: #000;
+
+
+}
+
+.file-marker  span i
+{
+    padding-right: 5px;
+}
+.file-marker .child
+{
+    position: absolute;
+    left:-13%;
+    top: 45%;
+    transform: translate(-50%);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: 0em;
+
+
+} 
+
+.swiper-button-next::after,
+.swiper-button-prev::after
+{
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+	content: "\f054" !important;
+}
+.file-marker span i:first-child
+{
+    padding-right: 5px;
+}
+
+
+.file-marker > div {
+    padding: 0 3px;
+    height: 100px;
+    margin-top: -1.2em;
+    
+}
+.box-title {
+    background: var(--background-color) none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 2px;
+    margin-left: 2em;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+}
+.question-slide .box-contents 
+{
+ 
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+color: #70757c;
+
+}
+.question-slide .box-contents  #what
+{
+    padding: 26px 30px 30px 30px;
+}
+
+.swiper {
+    margin: 0px auto;
+    width: 100%px;
+    height: 640px;
+    /* z-index: -1; */
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: var(--background-color);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: var(--background-color);
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: var(--background-color);
+  }
+
+/* question-slide */
+
+
+
+
+
+/* prdocuts-section */
+.prdocuts-section
+{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.prdocuts-section .prodcuts-title
+{
+display: block;
+margin: 0 auto;
+margin-bottom: 63px;
+ width: 70%;
+font-size: 52px;
+font-style: normal;
+font-weight: 600;
+line-height: 78px;
+letter-spacing: 0em;
+text-align: center;
+border-bottom: 3px solid 
+var(--main-color);
+
+}
+.prdocuts-section .prodcuts-phone
+{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+.prodcuts-phone img
+{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+.prodcuts-phone img:nth-child(2)
+{
+    margin-top: -50px;
+}
+/*  products information section  */
+
+.product-info 
+{
+    margin-top: 100px;
+}
+.product-info .pro-box h3
+{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+    text-underline-offset: 5px;
+}
+.product-info .pro-box p
+{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+color: #70757C;
+padding-right: 40px;
+margin-right: 51px;
+}
+/*  products information section  */
+
+/* prdocuts-section */
+
+/* wallfair basic */
+.wallfair-basic-section
+{
+    width: 100%;
+    margin-top: 100px;
+}
+.wallfair-basic-section .wallfair-row
+{
+    margin: 0 auto;
+}
+.wallfair-basic-section h3
+{
+    
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0em;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 3px solid var(--main-color);
+    padding-bottom: 5px;
+}
+.wallfair-basic-section  h4
+{
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+    text-underline-offset: 12px;
+}
+.wallfair-basic-section  ul 
+{
+    position: relative;
+    margin-top: 44px;
+}
+.wallfair-basic-section  ul li
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #70757c;
+    padding-right: 80px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+
+}
+.wallfair-basic-section li::before
+{
+    content: '';
+    position: absolute;
+    left: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+/* wallfair basic */
+
+
+/* responsive media query */
+@media (min-width: 992px) and (max-width:1199px) 
+{ 
+    .play-intro .numbre-token form {
+        width: 64%;
+
+    }
+    .prodcuts-phone img:nth-child(2) {
+        margin-top: 40px;
+    }
+    .wallfair-basic-section ul li {
+        margin-right: 0px;
+    }
+    .question-slide .box-contents #what {
+        padding: 26px 10px 3px 10px;
+    }
+}
+@media (min-width: 577px) and (max-width: 991px) 
+{ 
+    .play-intro .numbre-token form {
+        width: 100%;
+
+    }
+    .play-intro .numbre-token span:first-child {
+        font-size: 93px;
+    }
+    .play-intro .numbre-token span {
+        font-size: 30px;
+    }
+    .play-intro .wallfair span {
+        font-size: 25px;
+    }
+    .prodcuts-phone img:nth-child(2) {
+        margin-top: 40px;
+    }
+    .prodcuts-phone img {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .wallfair-basic-section ul li {
+        margin-right: 0px;
+        margin-bottom: 0px;
+
+    }
+    .tri-shape7,
+    .tri-shape8 {
+
+        left: 367px;
+    }
+    .question-slide .box-contents {
+        font-size: 12px;
+    }
+    .swiper
+    {
+        margin-top: 0px;
+    }
+    .file-marker span,
+    .file-marker .child {
+
+        right: -103px;
+        top: 51%;
+        transform: translate(-50%);
+        font-size: 26px;
+
+    }
+    .info-block section {
+        position: relative;
+        margin: 0 auto;
+        border: 2px solid var(--main-color);
+        margin-top: 20px;
+        border-radius: 18px;
+        width: 48%;
+        height: 473px;
+    }
+
+    .question-slide .box-contents #what {
+        padding: 5px 10px 3px 10px;
+    }
+
+}
+ @media (min-width : 480px) and (max-width: 576px)
+{
+    .tri-shape8,
+    .tri-shape7,
+    .tri-shape6,
+    .tri-shape5{
+        display: none;
+        left: 318px;
+        transform: rotate(90deg);
+    }
+    .play-intro .numbre-token span:first-child {
+        font-size: 115px;
+    }
+    .play-intro .numbre-token form {
+        width: 100%;
+    }
+    .swiper
+    {
+        margin-top: 0;
+    }
+    .question-slide .box-contents #what {
+        padding: 26px 10px 3px 10px;
+    }
+    .info-block section {
+        position: relative;
+        /* margin: 0 auto; */
+        border: 2px solid var(--main-color);
+        margin-top: 20px;
+        border-radius: 18px;
+        width: 100%;
+        height: 411px;
+    }
+    .file-marker span {
+
+        right: 45px;
+        top: 457px;
+        transform: translate(-50%);        
+        font-size: 25px;
+
+    }
+    .file-marker .child {
+
+        left: 128px;
+        top: 457px;
+        font-size: 25px;
+
+    }
+    .prdocuts-section .prodcuts-phone {
+
+        width: 100%;
+  
+    }
+    .prodcuts-phone img:nth-child(2) {
+        margin-top: 0px;
+    }
+    .product-info .pro-box p {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .wallfair-basic-section ul li {
+        font-size: 16px;
+        padding-right: 0px;
+        margin-right: 0px;
+
+    }
+    .wallfair-basic-section li::before {
+        margin-top: 9px;
+    }
+} 
+@media (max-width : 479px)
+{
+    .tri-shape8,
+    .tri-shape7,
+    .tri-shape6,
+    .tri-shape5{
+        display: none;
+        left: 318px;
+        transform: rotate(90deg);
+    }
+    .tri-shape10 {
+        right: 76px;
+        top: 36%;
+    }
+    .tri-shape9{
+        left: 76px;
+        top: 36%;
+    }
+    .play-intro .wallfair h3 {
+        font-size: 34px;
+    }
+    .play-intro .wallfair span {
+        font-size: 21px;
+    }
+    .play-intro .numbre-token span:first-child
+    {
+        font-size: 74px;
+    }
+    .play-intro .numbre-token form {
+        width: 100%;
+    }
+    .box-offer .container-box {
+        padding-left: 0px;
+    }
+    
+    .offer .box-info
+    {
+        font-size: 14px;
+    }
+    .swiper
+    {
+        margin-top: 0;
+        height: 774px;
+    }
+    .question-slide .box-contents #what {
+        padding: 26px 10px 3px 10px;
+    }
+    .question-slide .container
+    {
+        width: 100% !important;
+    }
+    .info-block section {
+        position: relative;
+        /* margin: 0 auto; */
+        border: 2px solid var(--main-color);
+        margin-top: 20px;
+        border-radius: 18px;
+        width: 100%;
+        height: 601px;
+    }
+    .file-marker span {
+
+        right: -6px;
+        top: 633px;
+        transform: translate(-50%);        
+        font-size: 25px;
+
+    }
+    .file-marker .child {
+
+        left: 65px;
+        top: 633px;
+        font-size: 25px;
+
+    }
+    .prdocuts-section .prodcuts-title {
+        margin-bottom: 43px;
+        width: 100%;
+    }
+    .prdocuts-section .prodcuts-phone {
+        width: 100%;
+    }
+    .prodcuts-phone img
+    {
+        margin-left: 0px;
+    }
+    .prodcuts-phone img:nth-child(2) {
+        margin-top: 0px;
+    }
+    .product-info .pro-box p {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    /* .wallfair section  */
+    .wallfair-basic-section ul li {
+        padding-right: 0px;
+        margin-right: 0px;
+
+    }
+    .wallfair-basic-section h3 {
+        font-size: 40px;
+        line-height: 53px;
+        width: 70%;
+        padding-bottom: 0px;
+    }
+    .wallfair-basic-section h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+/* responsive media query */
